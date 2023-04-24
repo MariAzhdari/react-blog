@@ -1,10 +1,14 @@
+import Topbar from "./components/topbar/Topbar";
+
+import Homepage from "./pages/Homepage";
 
 
 function App() {
   return (
-    <div className="App">
-    blog app
-    </div>
+    <>
+   <Topbar />
+   <Homepage />
+    </>
   );
 }
 
