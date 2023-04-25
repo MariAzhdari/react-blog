@@ -41,6 +41,9 @@
 
 .sidebarItem > p {
   padding: 30px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+ 
 }
 
 .sidebarList {
