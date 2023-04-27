@@ -1,6 +1,6 @@
 import "./sidebar.css"
 
-export default function Sidebar() {
+function Sidebar() {
   return (
     <div className="sidebar">
       <div className="sidebarItem">
@@ -41,3 +41,4 @@ export default function Sidebar() {
     </div>
   );
 }
+ export default Sidebar;

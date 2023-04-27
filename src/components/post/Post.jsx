@@ -1,6 +1,5 @@
 import "./post.css";
-
-export default function Post({ img }) {
+ function Post({ img }) {
   return (
     <div className="post">
       <img className="postImg" src={img} alt="" />
@@ -30,3 +29,4 @@ export default function Post({ img }) {
     </div>
   );
 }
+export default Post;
